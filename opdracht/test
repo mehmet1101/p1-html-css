@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="opmaak.css">
+    <title>Document</title>
+    <Link> rel="stylesheets" href="opmaak.css"></Link>
+</head>
+<h1>Mehmet</h1>
+<p>Dit ben ik</p>
+<p id="mijn hobbys zijn game en wandelen"
+<img src="Capture.PNG" alt="foto1">
+<img src="imag2.PNG" alt="foto2">
+<body>
+<h1>kulaksiz</h1>
+<p>welkom op mijn website</p>
+<img src="images/afbeelding1.jpg" alt="">
+<img src="images/afbeelding2.jpg" alt="">
+
+
+<br/>
+
+<a href="https://wwww.techniekcollegerotterdam.nl/"> techniek </a>
+    
+
+</body>
+</html>
