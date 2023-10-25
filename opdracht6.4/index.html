@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Menu</title>
+  <style>
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      position: relative;
+      margin-right: 20px;
+    }
+
+    nav li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #f9f9f9;
+      padding: 10px;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 5px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a href="#">Services</a>
+        <div class="dropdown-content">
+          <a href="#">Web Design</a>
+          <a href="#">Graphic Design</a>
+          <a href="#">Digital Marketing</a>
+        </div>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

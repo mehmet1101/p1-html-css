@@ -1,0 +1,40 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html {
+   font-size:62.5%;
+}
+body{
+background-image: url (img/background.jpeg);
+background-size: cover;
+font-family: "Goldman", cursive;
+height: 100vh;
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+background-color: black; 
+}
+
+
+nav{position: fixed;/* stel de positie vast op 'fixed' */
+top:0;/* plaats de navbar aan de bovenkant van het scherm*/
+width: 100%;
+display: flex;
+width:100&;
+padding: 2rem;
+min-height: 10vh
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+background: #00a8c7
+justify-content: space-between;
+z-index: 100; /* zorg ervoor dat de navbar boven andere elementen wordt weergegeven */
+}
+
+nav ul {
+  display: flex;
+align-items: center;
+list-style-type: none;
+}

@@ -1,0 +1,61 @@
+h1{
+  color: rgb(0, 0, 0);
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+   li a {
+        display: block;
+        width: 60px;
+        background-color: #725b5b;
+    }  
+     li a {
+        display: block;
+        color: #7a3232;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      /* Change the link color on hover */
+      li a:hover {
+        background-color: #5a4f4f;
+        color: rgb(253, 255, 252);
+      }
+      li a {
+        display: block;
+        color: #000;
+        padding: 21px 30px;
+        text-decoration: none;
+      }
+      /* Change the link color on hover */
+      li a:hover {
+        background-color: #34925e;
+        color: rgb(42, 51, 42);
+      }
+      li a:hover {
+        display: block;
+        color:rgb(0, 0, 0);
+        padding: 21px 30px;
+        text-decoration: none;
+      }
+      li a {
+        display: block;
+        width: 120px;
+        background-color: #2f4d2e;
+    }  
+  body{
+    background-color: rgb(100, 161, 121)
+  }
+  ul {
+    position: fixed ;
+    width: 100%;
+  }
+  .topbar{
+    max-width: 100%; 
+    max-height: 10%;
+    background-color:rgb(15, 120, 29)
+  }
+  .div2 {
+    text-align: center;
+  }

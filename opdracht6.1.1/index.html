@@ -1,0 +1,28 @@
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kleur aanpassen</title>
+  <style>
+    h1 {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Originele inhoud</h1>
+  
+  <button id="verander-knop">Verander kleur</button>
+
+  <script>
+    var veranderKnop = document.getElementById("verander-knop");
+    veranderKnop.addEventListener("click", kleur_aanpassen);
+
+    function kleur_aanpassen() {
+      var h1Element = document.querySelector("h1");
+      h1Element.style.color = "red";
+      h1Element.textContent = "Inhoud aangepast!";
+    }
+  </script>
+</body>
+</html>

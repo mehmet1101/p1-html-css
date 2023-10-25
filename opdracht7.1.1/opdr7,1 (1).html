@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+        .navbar {
+            background-color: red;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+        .flex-container {
+            display: flex;
+            flex-direction: column; 
+            align-items: stretch;
+        }
+
+        .flex-item1 {
+            margin: 1px;
+            padding: 80px;
+            background-color: hsl(52, 98%, 51%);
+            text-align: center;
+        }
+        .flex-item2 {
+            margin: 1px;
+            padding: 80px;
+            background-color: orange;
+            text-align: center;
+        }
+        .flex-item3 {
+            margin: 1px;
+            padding: 80px;
+            background-color: green;
+            text-align: center;
+        }
+
+        .flex-item.full-width {
+            flex: 1; 
+        }
+
+@media (max-width: 949px) {
+    .navbar {
+            background-color: slateblue;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+        .flex-container {
+            display: flex;
+            flex-direction: column; 
+            align-items: stretch;
+        }
+
+        .flex-item1 {
+            margin: 1px;
+            padding: 80px;
+            background-color: hsl(185, 80%, 50%);
+            text-align: center;
+        }
+        .flex-item2 {
+            margin: 1px;
+            padding: 80px;
+            background-color: rgb(201, 3, 227);
+            text-align: center;
+        }
+        .flex-item3 {
+            margin: 1px;
+            padding: 80px;
+            background-color: rgb(151, 0, 233);
+            text-align: center;
+        }
+
+        .flex-item.full-width {
+            flex: 1; 
+        }
+  }
+
+
+@media (min-width: 950px) and (max-width: 1200px) {
+    .navbar {
+            background-color: rgb(237, 108, 161);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+        .flex-container {
+            display: flex;
+            flex-direction: column; 
+            align-items: stretch;
+        }
+
+        .flex-item1 {
+            margin: 1px;
+            padding: 80px;
+            background-color: hsl(0, 86%, 67%);
+            text-align: center;
+        }
+        .flex-item2 {
+            margin: 1px;
+            padding: 80px;
+            background-color: rgb(160, 83, 231);
+            text-align: center;
+        }
+        .flex-item3 {
+            margin: 1px;
+            padding: 80px;
+            background-color: rgb(24, 105, 203);
+            text-align: center;
+        }
+
+        .flex-item.full-width {
+            flex: 1; 
+        }
+  }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Navbar</h1>
+    </div>
+
+
+    <div class="flex-container">
+        <div class="flex-item1 full-width">
+            <h2>Title 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo architecto odit qui saepe ea optio repellendus vero iste repudiandae aliquid, corrupti minus pariatur rerum unde delectus ipsa a! Voluptates, aliquam?</p>
+        </div>
+        <div class="flex-item2" >
+            <h2>Title 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio molestiae itaque quia facilis, aperiam temporibus voluptate cupiditate obcaecati qui quam. Porro tempora numquam unde dicta id libero eaque vitae et.</p>
+        </div>
+        <div class="flex-item3">
+            <h2>Title 2</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum libero ullam reiciendis porro, aspernatur corrupti at suscipit id laudantium a, eligendi neque vitae omnis aliquid incidunt iusto modi ad.</p>
+        </div>
+    </div>
+</body>
+</html>
