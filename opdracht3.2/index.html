@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boekingsformulier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        label, input, select {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<form action="/submit" method="post">
+    <label for="voornaam">Voornaam:</label>
+    <input type="text" id="voornaam" name="voornaam" pattern="[A-Za-z\s]+" required><br>
+
+    <label for="achternaam">Achternaam:</label>
+    <input type="text" id="achternaam" name="achternaam" pattern="[A-Za-z\s]+" required><br>
+
+    <label>Geslacht:</label>
+    <input type="radio" id="man" name="geslacht" value="man" checked>
+    <label for="man">Man</label>
+    <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+    <label for="vrouw">Vrouw</label><br>
+
+    <label for="straat">Straat met huisnummer:</label>
+    <input type="text" id="straat" name="straat" required><br>
+
+    <label for="postcode">Postcode:</label>
+    <input type="text" id="postcode" name="postcode" required><br>
+
+    <label for="stad">Stad:</label>
+    <input type="text" id="stad" name="stad" required><br>
+
+    <label for="land">Land:</label>
+    <input type="text" id="land" name="land" required><br>
+
+    <label for="bsn">BSN-nummer:</label>
+    <input type="text" id="bsn" name="bsn" pattern="\d{1,9}" required><br>
+
+    <label for="vakantieland">Vakantieland:</label>
+    <select id="vakantieland" name="vakantieland" required>
+        <option value="Nederland">Nederland</option>
+        <option value="België">België</option>
+        <option value="Duitsland">Duitsland</option>
+        <!-- Voeg hier meer landen toe indien nodig -->
+    </select><br>
+
+    <label for="vertrek">Datum van vertrek:</label>
+    <input type="date" id="vertrek" name="vertrek" min="2023-10-27" required><br>
+
+    <label for="terugkomst">Datum van terugkomst:</label>
+    <input type="date" id="terugkomst" name="terugkomst" required><br>
+
+    <label for="reisgenoten">Aantal reisgenoten:</label>
+    <input type="number" id="reisgenoten" name="reisgenoten" min="1" max="4" required><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="wachtwoord">Wachtwoord:</label>
+    <input type="password" id="wachtwoord" name="wachtwoord" required><br>
+
+    <input type="submit" value="Boek nu">
+</form>
+
+</body>
+</html>
